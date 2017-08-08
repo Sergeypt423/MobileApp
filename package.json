@@ -1,0 +1,56 @@
+{
+  "name": "MobileApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@mapbox/polyline": "^0.2.0",
+    "buffer": "5.0.0",
+    "fetchival": "0.3.2",
+    "geolib": "^2.0.22",
+    "native-base": "2.1.5",
+    "prop-types": "^15.5.10",
+    "qs": "6.3.0",
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.47.1",
+    "react-native-android-back-button": "^0.3.0",
+    "react-native-datepicker": "^1.6.0",
+    "react-native-deprecated-custom-components": "^0.1.0",
+    "react-native-google-maps-directions": "^1.1.0",
+    "react-native-google-places-autocomplete": "^1.2.12",
+    "react-native-input-picker": "^1.0.0",
+    "react-native-maps": "^0.15.3",
+    "react-native-router-flux": "^3.40.1",
+    "react-native-vector-icons": "^4.2.0",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^5.0.5",
+    "redux": "3.6.0",
+    "redux-persist": "3.4.0",
+    "redux-persist-transform-filter": "0.0.4",
+    "redux-thunk": "2.1.0",
+    "remote-redux-devtools": "0.5.2",
+    "substring": "^1.0.0",
+    "validator": "^7.1.0",
+    "whatwg-fetch": "^1.1.1"
+  },
+  "jest": {
+    "preset": "jest-react-native"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.1.0",
+    "babel-jest": "16.0.0",
+    "babel-preset-react-native": "1.9.0",
+    "eslint": "3.9.1",
+    "eslint-config-airbnb": "12.0.0",
+    "eslint-plugin-import": "1.16.0",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "6.6.0",
+    "eslint-plugin-react-native": "2.0.0",
+    "jest": "16.0.2",
+    "jest-react-native": "16.1.0",
+    "react-test-renderer": "16.0.0-alpha.6"
+  }
+}
